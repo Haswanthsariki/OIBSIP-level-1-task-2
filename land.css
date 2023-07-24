@@ -1,0 +1,146 @@
+*{
+    margin: 1px;
+    padding: 2px;
+    font-family: cursive;
+}
+body{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+header li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: x-large;
+}
+header{
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px rgb(243, 241, 241);
+    background-color: rgb(74, 73, 74);
+}
+#title{
+    margin-right: auto;
+    font-size: xx-large;
+    color: rgb(232, 206, 11);
+}
+
+header a:hover{
+    color: rgb(244, 244, 243);
+}
+a{
+    color: rgb(232, 206, 11);
+    text-decoration: none;
+}
+
+#sbtn{
+    padding: 65px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#search{
+    height: 70px;
+    width: 790px;
+    background: wheat;
+    border-color: rgb(27, 19, 4);
+    border-radius: 20px;
+    border-width: 3px;
+}
+#btn{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(228, 62, 62);
+    border-color: rgb(219, 221, 224);
+    border-width: 1px;
+    border-radius: 3px;
+}
+::placeholder{
+    font-size: 25px;
+    font-display: inherit;
+    font-weight: 50px;
+}
+#z1{
+    color: azure;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+#z2{
+    color: azure;
+    font-size: xx-large;
+    text-align: left;
+    padding: 30px;
+}
+
+#items{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+    flex-wrap: wrap;
+}
+
+#food{
+    width: 300px;
+    height: 230px;
+    padding:20px;
+    border: 1px;
+    text-align: center;
+    background-color: rgb(33, 30, 30);
+    margin: 3px;
+}
+
+h3{
+    color: aliceblue;
+    font-size: x-large;
+}
+#food:hover{
+    transform: scale(1.07);
+    box-shadow: 2px 2px 2px 2px rgb(253, 249, 249);
+    background-color: rgb(92, 91, 91);
+
+}
+input{
+    font-size: x-large;
+    font-weight: bolder;
+}
+#a2{
+    float: right;
+    font-size: xx-large;
+    text-decoration: none;
+    font-weight:bolder ;
+}
+#a2:hover{
+    color: rgb(255, 255, 255);
+}
+#a3{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+footer{
+    background-color: rgb(63, 63, 63);
+    color: white;
+    padding: 25px;
+}
+.d3{
+    display: flex;
+    justify-content: space-between;
+}
+footer li{
+    list-style: none;
+    text-align: center;
+}
+.u1 a{
+    color: rgb(176, 175, 175);
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+p{
+    padding: 10px;
+}
